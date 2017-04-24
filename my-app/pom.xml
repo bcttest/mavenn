@@ -35,7 +35,14 @@
         <artifactId>jdk8</artifactId>
         <version>1.9.4</version>
     </dependency>
-  </dependencies>
+	</dependency>
+	<server>
+	<id>test</id>
+	<username>admin</username>
+	<password>test@123</password>
+	</server>
+	</dependency>
+	</dependencies>
   <build>
     <plugins>
       <plugin>
